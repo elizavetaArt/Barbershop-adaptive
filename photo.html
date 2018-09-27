@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Барбершоп "Бородинский"</title>
+  </head>
+  <body>
+    <header class="page-header">
+      <a class="page-header__logo">
+        <img class="page-header__logo-image" src="image/logotype-mobile.svg"
+             width="226" height="30" alt="Барбершоп Бородинский">
+      </a>
+      <nav class="main-nav">
+        <button class="main-nav__toggle" type="button">Открыть меню </button>
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__list site-list">
+            <li class="site-list__item">
+              <a>Главная</a>
+            </li>
+            <li class="site-list__item site-list__item--active">
+              <a href="photo.html">Наши работы</a>
+            </li>
+            <li class="site-list__item">
+              <a href="from.html">Записаться</a>
+            </li>
+            <li class="site-list__item">
+              <a href="#">Контакты</a>
+            </li>
+            <li class="site-list__item">
+              <a href="#">HTML Academy</a>
+            </li>
+          </ul>
+          <ul class="main-nav-list user-list">
+            <li class="user-list__item">
+              <a class="user-list__login" href="">Войти</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="page-main">
+      <h1 class="visually-hidden">Барбершоп "Бородинский" - истинно мужская классика</h1>
+      <section class="photos">
+        <div class="photos__wrapper">
+          <h2 class="photos__title">Наши работы</h2>
+          <a class="photos__to-main button">На главную</a>
+          <ul class="photos__list">
+            <li class="photos__item">
+              <p class="photos__author-picture">
+                <img class="photos__author-image" src="image/photo-work-1.jpg" width="280" height="480"
+                     alt="Фото стрижки Лжепетра Мстиславского">
+              </p>
+              <small class="photos__tagging">Работа месяца</small>
+              <cite class="photos__author-name">Лжепетр Мстиславский</cite>
+              <p class="photos__text">
+                Где я только не стригся, но так как делаете это вы —
+                не умеет никто другой! Еще раз спасибо и до скорого!
+              </p>
+              <div class="photos__service service">
+                <ul class="service__list">
+                  <li class="service__item service__item--haircut">Стрижка</li>
+                  <li class="service__item service__item--shaving">Бритье</li>
+                  <li class="service__item service__item--beard visually-hidden">Борода</li>
+                  <li class="service__item service__item--mustache">Усы</li>
+                </ul>
+              </div>
+            </li>
+            <li class="photos__item">
+              <p class="photos__author-picture">
+                <img class="photos__author-image" src="image/photo-work-2.jpg" width="280" height="176"
+                     alt="Фото стрижки Саши Мальцева">
+              </p>
+              <small class="photos__tagging visually-hidden">Работа месяца</small>
+              <cite class="photos__author-name">Саша Мальцев</cite>
+              <p class="photos__text">
+                Попросил омолодить и омолодили! Кто теперь скажет, что мне 45?
+              </p>
+              <div class="photos__service service">
+                <ul class="service_list">
+                  <li class="service_item service__item--haircut">Стрижка</li>
+                  <li class="service_item service__item--shaving visually-hidden">Бритье</li>
+                  <li class="service_item service__item--beard visually-hidden">Борода</li>
+                  <li class="service_item service__item--mustache visually-hidden">Усы</li>
+                </ul>
+              </div>
+            </li>
+            <li class="photos__item">
+              <p class="photos__author-picture">
+                <img class="photos__author-image" src="image/photo-work-3.jpg" width="280" height="176"
+                     alt="Фото стрижки Владимира Иваныча">
+              </p>
+              <small class="photos__tagging visually-hidden">Работа месяца</small>
+              <cite class="photos__author-name">Владимир Иваныч</cite>
+              <p class="photos__text">
+                К зимнему сезону — готов!
+              </p>
+              <div class="photos__service service">
+                <ul class="service_list">
+                  <li class="service_item service__item--haircut visually-hidden">Стрижка</li>
+                  <li class="service_item service__item--shaving visually-hidden">Бритье</li>
+                  <li class="service_item service__item--beard">Борода</li>
+                  <li class="service_item service__item--mustache">Усы</li>
+                </ul>
+              </div>
+            </li>
+            <li class="photos__item">
+              <p class="photos__author-picture">
+                <img class="photos__author-image" src="image/photo-work-4.jpg" width="280" height="176"
+                     alt="Фото стрижки Винстона Синего">
+              </p>
+              <small class="photos__tagging visually-hidden">Работа месяца</small>
+              <cite class="photos__author-name">Винстон Синий</cite>
+              <p class="photos__text">
+                Как только заростаю и волосы начинают мешать видеть — бегом в Бородинский!
+              </p>
+              <div class="photos__service service">
+                <ul class="service_list">
+                  <li class="service_item service__item--haircut">Стрижка</li>
+                  <li class="service_item service__item--shaving visually-hidden">Бритье</li>
+                  <li class="service_item service__item--beard visually-hidden">Борода</li>
+                  <li class="service_item service__item--mustache visually-hidden">Усы</li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="price-list">
+        <div class="price-list__wrapper">
+          <h2 class="price-list__title">Прейскурант</h2>
+          <table class="price-list__list">
+            <tr>
+              <td class="price-list__numbering">1</td>
+              <td class="price-list__name-of-the-service">Классическая стрижка</td>
+              <td class="price-list__description-of-the-service">с мытьем головы</td>
+              <td class="price-list__price">1 500 руб.</td>
+            </tr>
+            <tr>
+              <td class="price-list__numbering">2</td>
+              <td class="price-list__name-of-the-service">Современный вариант</td>
+              <td class="price-list__description-of-the-service">с мытьем головы</td>
+              <td class="price-list__price">1 500 руб.</td>
+            </tr>
+            <tr>
+              <td class="price-list__numbering">3</td>
+              <td class="price-list__name-of-the-service">Индивидуальный подход</td>
+              <td class="price-list__description-of-the-service">с мытьем головы</td>
+              <td class="price-list__price">2 000 руб.</td>
+            </tr>
+            <tr>
+              <td class="price-list__numbering">4</td>
+              <td class="price-list__name-of-the-service">Бритье бороды</td>
+              <td class="price-list__description-of-the-service">без мытья</td>
+              <td class="price-list__price">500 руб.</td>
+            </tr>
+            <tr>
+              <td class="price-list__numbering">5</td>
+              <td class="price-list__name-of-the-service">Бритье головы</td>
+              <td class="price-list__description-of-the-service">с мытьем головы</td>
+              <td class="price-list__price">1 000 руб.</td>
+            </tr>
+          </table>
+          <div class="price-list__sale">
+            <img class="price-list_image" src="" alt="Фотография циферблата">
+            <p class="price-list__text">
+              C 10:00 до 14:00<br> скидка 20%
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="page-footer">
+      <div class="page-footer__wrapper">
+        <div class="page-footer__contacts contacts">
+          <b class="contacts__title">Барбершоп "Бородинский"</b>
+          <p class="contacts__text">
+            г. Санкт-Петербург, ул. Большая Конюшенная 19/8<br>
+            <a class="contacts__phone" href="tel:+78125556666">
+              <span class="contacts__phone-mobile">Тел.:</span> +7 (812) 555-66-66
+            </a>
+          </p>
+        </div>
+        <div class="page-footer__social social">
+          <b class="social__title">Давайте дружить!</b>
+          <ul class="social__list">
+            <li class="social__item">
+              <a class="social__link social__link--vkontakte" href="https://vk.com/htmlacademy">
+                Мы в Вконтакте
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link--facebook" href="https://www.facebook.com/htmlacademy">
+                Мы в Фейсбуке
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link--instagram" href="https://www.instagram.com/htmlacademy">
+                Мы в Инстаграмме
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="page-footer__copyright copyright">
+          <b class="copyright__text">Разработано:</b>
+          <a class="button copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
+            HTML Academy
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
