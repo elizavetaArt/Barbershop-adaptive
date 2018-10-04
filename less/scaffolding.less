@@ -1,0 +1,42 @@
+@import "variables";
+
+@font-face {
+  font-weight: normal;
+  font-family: "PT Sans Narrow";
+}
+@font-face {
+  font-weight: bold;
+  font-family: "PT Sans Narrow";
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 27px;
+  font-family: "Arial", sans-serif;
+  color: #f7f4f1;
+  font-style: normal;
+  background: @bg-darkgrey;
+}
+.visually-hidden:not(:focus):not(:active) {
+  position: absolute;
+  border: 0;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0, 0, 0, 0);
+  overflow: hidden;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+@import "mixins";
+@import "blocks/page-header";
+@import "blocks/main-nav";
+@import "blocks/stats";
