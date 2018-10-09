@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initail-scale=1">
     <link rel="stylesheet" href="css/scaffolding.css">
     <link rel="stylesheet" href="css/normalize.css">
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">  </head>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,300,700&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">  </head>
   <body>
     <header class="page-header">
       <a class="page-header__logo">
         <img class="page-header__logo-image" src="img/logotype-mobile.svg"
              width="225" height="30" alt="Барбершоп Бородинский">
       </a>
-      <nav class="main-nav main-nav--closed">
+      <nav class="main-nav main-nav--closed main-nav--nojs">
         <button class="main-nav__toggle" type="button">
           <span class="visually-hidden">Открыть меню</span>
         </button>
@@ -37,7 +37,13 @@
           </ul>
           <ul class="main-nav__list user-list">
             <li class="user-list__item">
-              <a class="user-list__login" href="login.html">Войти</a>
+              <a class="user-list__login" href="login.html">
+                <svg class="user-list__login-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                  <polygon points="0 7 7.01 7 7.01 4.06 10.96 8.01 7.01 11.91 7.01 9.86 0 9.02 0 7"></polygon>
+                  <polygon points="7.01 0 7.01 2 14.03 2 14.03 13.99 7.01 13.99 7.01 16 16 16 16 0 7.01 0"></polygon>
+                </svg>
+                Войти
+              </a>
             </li>
           </ul>
         </div>
@@ -57,7 +63,7 @@
         <table class="stats__list">
           <tr>
             <td class="stats__value">
-              1 500<sup>*</sup>
+              1&nbsp;500<sup>*</sup>
             </td>
             <td class="stats__field">
               рублей<br> вложений
@@ -65,7 +71,7 @@
           </tr>
           <tr>
             <td class="stats__value">
-              7 200
+              7&nbsp;200
             </td>
             <td class="stats__field">
               секунд<br> времени мастера
@@ -73,7 +79,7 @@
           </tr>
           <tr>
             <td class="stats__value">
-              90 000
+              90&nbsp;000
             </td>
             <td class="stats__field">
               постриженных<br> волос
@@ -81,7 +87,7 @@
           </tr>
           <tr>
             <td class="stats__value">
-              500 000<sup>*</sup>
+              500&nbsp;000<sup>*</sup>
             </td>
             <td class="stats__field">
               лайков и<br> комплиментов
@@ -217,5 +223,6 @@
         </div>
       </div>
     </footer>
+  <script src="scripts/index.js"></script>
   </body>
 </html>
